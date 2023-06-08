@@ -1,0 +1,35 @@
+body {
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    background-color: #fff;
+    width: 200px;
+    height: auto;
+    position: absolute;
+    padding: 18px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+}
+
+.qrImg {
+    position: relative;
+    margin-left: 12.5%;
+    width: 150px;
+    border: 1px solid #2C7DFA;
+    border-radius: 20px;
+}
+
+.text {
+    height: auto;
+    text-align: center;
+}
+
+.content {
+    opacity: 0.6;
+}
